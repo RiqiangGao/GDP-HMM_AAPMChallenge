@@ -4,9 +4,8 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 
 # Content 
 
-- [Install](#install)
-- [What this repo does](#what-this-code-does)
-- [What this repo does not](#what-this-code-does-not)
+- [What this repo does](#what-this-repo-does)
+- [What this repo does not](#what-this-repo-does-not)
 - [Simplified Background](#Simplified-Background)
 - [Data Understanding and Visualization](#Data-Understanding-and-Visualization)
 - [Data Preprocess](#Data-Preprocess)
@@ -14,13 +13,6 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 - [Evaluation Methods](#Evaluation-Methods)
 - [Challenge results (to do)](#Challenge-results)
 - [Challenge organizers](#Challenge-organizers)
-
-
-## Install
-
-```bash
-$ pip install vit-pytorch
-```
 
 
 ## What this repo does
