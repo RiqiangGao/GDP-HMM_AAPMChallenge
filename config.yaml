@@ -1,0 +1,35 @@
+
+
+
+loader_params: 
+
+    'train_bs': 1
+    'val_bs': 4
+    'csv_root': 'meta_data.csv'
+    'scale_dose_dict': 'PTV_DICT.json'
+    'pat_obj_dict': 'Pat_Obj_dict.json'
+    'num_workers': 2
+
+    'down_HU': -1000
+    'up_HU': 1000
+    'denom_norm_HU': 500
+
+    'in_size': [96, 128, 144]
+    'out_size': [96, 128, 144]
+
+    'norm_oar': True
+    'CatStructures': False
+
+    'dose_div_factor': 10 
+    
+    
+model_params:
+    num_input_channels: 8
+    out_channels: 1
+    model_id: 'B'
+    kernel_size: 3
+    deep_supervision: False
+    
+lr: 0.0001
+
+num_epochs: 10
