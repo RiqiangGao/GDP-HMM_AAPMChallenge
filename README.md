@@ -10,7 +10,7 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 - [Important Timeline](#Important-Timeline)
 - [Simplified Background](#Simplified-Background)
 - [Data Understanding and Visualization](#Data-Understanding-and-Visualization)
-- [Simple Baseline: Start Training in 5 Minutes](#Simple-Baseline:-Start-Training-in-5-Minutes)
+- [Get Started and Training](#Get-Started-and-Training)
 - [Evaluation Methods](#Evaluation-Methods)
 - [Challenge organizers](#Challenge-organizers) 
 - [Citation](#Citation) 
@@ -74,13 +74,17 @@ One example of Eclipse Visulization is shown below. For jupyter visualization wi
 
 ![Visualization using Eclipse](figs/eclipse.png)
 
-## Simple Baseline: Start Training in 5 Minutes
+## Get Started and Training
 
 We provide a training script with less than 40 effective lines of Python/PyTorch code, with minor package dependency. The participarts can start with this very quickly, and adjust the code to more advanced models. 
 
 See detailed instructions in [get_started_and_train.ipynb](get_started_and_train.ipynb). Our target is to help user run the training code in **5 minutes**, and understand the code logic and parameters in **20 minutes**. 
 
 ## Evaluation Methods 
+
+Two metrics are used in the evaluation. One is mean absolute error masked by 5 Gy isodose line of reference dose. The motivation is to measure how close the prediction and reference under specific settings (for example, beam geometries). The example code is shown in [evaluation.ipynb](evaluation.ipynb). 
+
+Another metric is quality index of the deliverable plan generated from the dose prediction following the scorecard described by Ref [1](#Citation). The computation of the metric will be handled by organizer. The participants only need to submit their results or solution package. Only small of number times are allowed to compute the quality index. 
 
 
 ## Challenge organizers 
