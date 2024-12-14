@@ -20,12 +20,9 @@ from scipy import ndimage
 import random
 
 
-
-OAR_LIST = [ 'Cochlea_L', 'Cochlea_R','Eyes', 'Lens_L', 'Lens_R', 'OpticNerve_L', 'OpticNerve_R', 'Chiasim', 'LacrimalGlands', 'BrachialPlexus', 'Brain',  'BrainStem_03',  'Esophagus', 'Lips', 'Lungs', 'Trachea', 'Posterior_Neck', 'Shoulders', 
-            'Larynx-PTV', 'Mandible-PTV', 'OCavity-PTV', 'ParotidCon-PTV', 'Parotidlps-PTV', 'Parotids-PTV', 'PharConst-PTV', 'Submand-PTV', 'SubmandL-PTV', 'SubmandR-PTV', 'Thyroid-PTV', 'SpinalCord_05']
+OAR_LIST = [ 'Cochlea_L', 'Cochlea_R','Eyes', 'Lens_L', 'Lens_R', 'OpticNerve_L', 'OpticNerve_R', 'Chiasim', 'LacrimalGlands', 'BrachialPlexus', 'Brain',  'BrainStem_03',  'Esophagus', 'Lips', 'Lungs', 'Trachea', 'Posterior_Neck', 'Shoulders', 'Larynx-PTV', 'Mandible-PTV', 'OCavity-PTV', 'ParotidCon-PTV', 'Parotidlps-PTV', 'Parotids-PTV', 'PharConst-PTV', 'Submand-PTV', 'SubmandL-PTV', 'SubmandR-PTV', 'Thyroid-PTV', 'SpinalCord_05']
 
 OAR_DICT = {OAR_LIST[i]: (i+1) for i in range(len(OAR_LIST))}
-
 
 
 def combine_oar(tmp_dict, need_list,norm_oar = True):
@@ -103,7 +100,34 @@ def tt_augmentation(KEYS, in_size, out_size, crop_center):
 
 
 class MyDataset(Dataset):
+    
     def __init__(self, cfig, phase):
+        '''
+        phase: train, validation, or testing 
+        
+        cfig: the configuration dictionary
+        
+            train_bs: training batch size
+            val_bs: validation batch size
+            num_workers: the number of workers when call the DataLoader of PyTorch
+            
+            csv_root: the meta data file, include patient id, plan id, the .npz data path and some conditions of the plan. 
+            scale_dose_dict: path of a dictionary. The dictionary includes the prescribed doses of the PTVs. 
+            pat_obj_dict: path of a dictionary. The dictionary includes the ROIs (PTVs and OARs) names used in optimization. 
+            
+            down_HU: bottom clip of the CT HU value. 
+            up_HU: upper clip of the CT HU value. 
+            denom_norm_HU: the denominator when normalizing the CT. 
+            
+            in_size & out_size: the size parameters used in data transformation. 
+
+            norm_oar: True or False. Normalize the OAR channel or not. 
+            CatStructures: True or False. Concat the PTVs and OARs in multiple channels, or merge them in one channel, respectively. 
+
+            dose_div_factor: the value used to normalize dose. 
+            
+        '''
+        
         self.cfig = cfig
         
         df = pd.read_csv(cfig['csv_root'])

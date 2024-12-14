@@ -10,12 +10,14 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 - [Important Timeline](#Important-Timeline)
 - [Simplified Background](#Simplified-Background)
 - [Data Understanding and Visualization](#Data-Understanding-and-Visualization)
-- [Simple Baseline (Start Training in 5 Minutes)](#Simple-baseline-(Start-Training-in-5-Minutes))
+- [Simple Baseline: Start Training in 5 Minutes](#Simple-Baseline:-Start-Training-in-5-Minutes)
 - [Evaluation Methods](#Evaluation-Methods)
 - [Challenge organizers](#Challenge-organizers) 
 - [Citation](#Citation) 
 
-## Announcements and News
+## Announcements and News 
+
+:rocket: The data, challenge website will be released in January 2025. 
 
 
 ## What this repo does
@@ -68,13 +70,17 @@ The input of this task includes CT, PTVs/OARs mask, beam geometries and so on. T
 
 ## Data-Understanding-and-Visualization
 
-One example of Eclipse Visulization is shown below. For jupyter visualization with npz, please visit data_visualization.ipynb. 
+One example of Eclipse Visulization is shown below. For jupyter visualization with npz, please visit [data_visualization.ipynb](data_visualization.ipynb). 
 
 ![Visualization using Eclipse](figs/eclipse.png)
 
-## Simple Baseline (Start Training in 5 Minutes)
+## Simple Baseline: Start Training in 5 Minutes
 
-Please go the []
+We provide a training script with less than 40 effective lines of Python/PyTorch code, with minor package dependency. The participarts can start with this very quickly, and adjust the code to more advanced models. 
+
+See detailed instructions in [get_started_and_train.ipynb](get_started_and_train.ipynb). Our target is to help user run the training code in **5 minutes**, and understand the code logic and parameters in **20 minutes**. 
+
+## Evaluation Methods 
 
 
 ## Challenge organizers 
@@ -91,12 +97,14 @@ Please contact Riqiang Gao with riqiang.gao@siemens-healthineers.com for further
 
 # Citation 
 
-- **Data citation**. Please cite the below technique paper [1] building the dataset (or the challenge summary paper when it is available) if you find the data and challenge is helpful to your research. 
+To acknowledge the work of challenge organization team and insights from previous publication, please kindly follow the below instructions and beyond. 
+
+- **Data citation**. Please cite the below technique paper [1] building the dataset (or/and the challenge summary paper when it is available) if you find the data and challenge is helpful to your research. 
 
 - **Baseline citation**. If you find the method and code of data preprocess in the repo (e.g., creating the angle and beam plates) is inspiring to your work, please cite [2]. If you use or adjust the MedNeXt as your network structure, please cite [3]. 
 
 ```
-[1] Riqiang Gao, Mamadou Diallo, Wilko Verbakel, Sandra Meyers, Masoud Zarepisheh, Rafe Mcbeth, Florin Ghesu, Ali Kamen. Automating High Quality RT Planning at Scale. Technique Note 2025.
+[1] Riqiang Gao, Mamadou Diallo, Han Liu, Anthony Magliari, Wilko Verbakel, Sandra Meyers, Masoud Zarepisheh, Rafe Mcbeth, Florin Ghesu, Ali Kamen. Automating High Quality RT Planning at Scale. Technique Note, 2025.
 
 [2] Riqiang Gao, Bin Lou, Zhoubing Xu, Dorin Comaniciu, and Ali Kamen. "Flexible-cm gan: Towards precise 3d dose prediction in radiotherapy." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023.
 
