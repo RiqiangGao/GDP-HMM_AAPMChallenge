@@ -84,10 +84,10 @@ See detailed instructions in [get_started_and_train.ipynb](get_started_and_train
 
 Two metrics are used in the evaluation. One is mean absolute error masked by 5 Gy isodose line of reference dose. The motivation is to measure how close the prediction and reference under specific settings (for example, beam geometries). The example code is shown in [evaluation.ipynb](evaluation.ipynb). 
 
-Another metric is quality index of the deliverable plan generated from the dose prediction following the scorecard described by Ref [1](#Citation). The computation of the metric will be handled by organizer. The participants only need to submit their results or solution package. Only small of number times are allowed to compute the quality index. 
+Another metric is quality index of the deliverable plan generated from the dose prediction following the scorecard described by Ref [[1](#Citation)]. The computation of the metric will be handled by organizer. The participants only need to submit their results or solution package. Only small of number times are allowed to compute the quality index. 
 
 
-## Challenge organizers 
+## Challenge Organizers 
 
 - Riqiang Gao, Ph.D., lead organizer, (Siemens Healthineers)
 - Florin Ghesu, Ph.D., (Siemens Healthineers)
@@ -105,7 +105,9 @@ To acknowledge the work of challenge organization team and insights from previou
 
 - **Data citation**. Please cite the below technique paper [1] building the dataset (or/and the challenge summary paper when it is available) if you find the data and challenge is helpful to your research. 
 
-- **Baseline citation**. If you find the method and code of data preprocess in the repo (e.g., creating the angle and beam plates) is inspiring to your work, please cite [2]. If you use or adjust the MedNeXt as your network structure, please cite [3]. 
+- **Baseline citation**. If you find the method and code of data preprocess and data loader in the repo (e.g., creating the angle and beam plates) is inspiring to your work, please cite [2]. If you use or adjust the MedNeXt as your network structure, please cite [3]. 
+
+Except above, if you find any resources (including data and code) in this repo for RT is helpful for your research, please kindly cite either [1] or [2]. 
 
 ```
 [1] Riqiang Gao, Mamadou Diallo, Han Liu, Anthony Magliari, Wilko Verbakel, Sandra Meyers, Masoud Zarepisheh, Rafe Mcbeth, Florin Ghesu, Ali Kamen. Automating High Quality RT Planning at Scale. Technique Note, 2025.
@@ -114,4 +116,3 @@ To acknowledge the work of challenge organization team and insights from previou
 
 [3] Saikat Ray, Gregor Koehler, Constantin Ulrich, Michael Baumgartner, Jens Petersen, Fabian Isensee, Paul F. Jaeger, and Klaus H. Maier-Hein. "Mednext: transformer-driven scaling of convnets for medical image segmentation." In International Conference on Medical Image Computing and Computer-Assisted Intervention, 2023.
 ```
-
