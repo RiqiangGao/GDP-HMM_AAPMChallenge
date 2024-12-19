@@ -17,7 +17,7 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 
 ## Announcements and News 
 
-:warning: The allowed maximum inference time of deep learning module (exclude data preprocessing) is 2 seconds in a A100 GPU (or similar). For example, some diffusion models may largely sacrifice time for accuracy.
+:warning: The allowed maximum inference time of deep learning module (exclude data preprocessing) is 3 seconds in a 24 GB max GPU. For example, some diffusion models may largely sacrifice time for accuracy.
 
 :rocket: The data, challenge website will be released in January 2025. 
 
