@@ -4,7 +4,7 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 
 # Content 
 
-- [News for challenge](#News-for-challenge)
+- [Announcements and News](#Announcements-and-News)
 - [What this repo does](#What-this-repo-does)
 - [What this repo does NOT](#What-this-repo-does-not)
 - [Important Timeline](#Important-Timeline)
@@ -16,6 +16,8 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 - [Citation](#Citation) 
 
 ## Announcements and News 
+
+:warning: The allowed maximum inference time of deep learning module (exclude data preprocessing) is 2 seconds in a A100 GPU (or similar). For example, some diffusion models may largely sacrifice time for accuracy.
 
 :rocket: The data, challenge website will be released in January 2025. 
 
@@ -110,7 +112,7 @@ To acknowledge the work of challenge organization team and insights from previou
 Except above, if you find any resources (including data and code) in this repo for RT is helpful for your research, please kindly cite either [1] or [2]. 
 
 ```
-[1] Riqiang Gao, Mamadou Diallo, Han Liu, Anthony Magliari, Wilko Verbakel, Sandra Meyers, Masoud Zarepisheh, Rafe Mcbeth, Florin Ghesu, Ali Kamen. Automating High Quality RT Planning at Scale. Technique Note, 2025.
+[1] Riqiang Gao, Mamadou Diallo, Han Liu, Anthony Magliari, Wilko Verbakel, Sandra Meyers, Masoud Zarepisheh, Rafe Mcbeth, Simon Arberet, Martin Kraus, Florin Ghesu, Ali Kamen. Automating High Quality RT Planning at Scale. Technique Note, 2025.
 
 [2] Riqiang Gao, Bin Lou, Zhoubing Xu, Dorin Comaniciu, and Ali Kamen. "Flexible-cm gan: Towards precise 3d dose prediction in radiotherapy." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023.
 
