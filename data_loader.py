@@ -162,7 +162,7 @@ class MyDataset(Dataset):
         ptv_highdose =  self.scale_dose_Dict[PatientID]['PTV_High']['PDose']
         In_dict['dose'] = In_dict['dose'] * In_dict['dose_scale'] 
 
-        norm_scale = ptv_highdose / (np.percentile(In_dict['dose'][In_dict['PTV70OPT'].astype('bool')], 3) + 1e-5) # D97
+        norm_scale = ptv_highdose / (np.percentile(In_dict['dose'][In_dict['PTVHighOPT'].astype('bool')], 3) + 1e-5) # D97
         In_dict['dose'] = In_dict['dose'] * norm_scale / self.cfig['dose_div_factor']
         
         In_dict['dose'] = np.clip(In_dict['dose'], 0, ptv_highdose * 1.2)
