@@ -1,6 +1,6 @@
 # GDP-HMM_AAPMChallenge
 
-The GDP-HMM repository provides code and tutorial are intended to help get participants started with developing dose prediction models for the GDP-HMM Challenge in AAPM 2025. 
+The GDP-HMM repository provides code and tutorial are intended to help get participants started with developing dose prediction models for the GDP-HMM Challenge in AAPM 2025. You can find additional  information in <a href="https://www.aapm.org/GrandChallenge/GDP-HMM/" _target='blank'>AAPM website</a> and <a href="https://qtim-challenges.southcentralus.cloudapp.azure.com/competitions/38/" _target='blank'>challenge platform</a>. 
 
 # Content 
 
@@ -12,6 +12,7 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 - [Data Understanding and Visualization](#Data-Understanding-and-Visualization)
 - [Get Started and Training](#Get-Started-and-Training)
 - [Evaluation Methods](#Evaluation-Methods)
+- [Prizes and Publication Plan](#Prizes-and-Publication-Plan)
 - [Challenge organizers](#Challenge-organizers) 
 - [Citation](#Citation) 
 
@@ -19,7 +20,7 @@ The GDP-HMM repository provides code and tutorial are intended to help get parti
 
 :warning: The allowed maximum inference time of deep learning module (exclude data preprocessing) is 3 seconds in a 24 GB max GPU. For example, some diffusion models may largely sacrifice time for accuracy.
 
-:rocket: The data, challenge website will be released in January 2025. 
+:rocket: [01/2025] The challenge will be officially started; training data will be released; more details will be supplied. 
 
 
 ## What this repo does
