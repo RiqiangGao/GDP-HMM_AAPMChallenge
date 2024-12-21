@@ -88,6 +88,15 @@ Two metrics are used in the evaluation. One is mean absolute error masked by 5 G
 
 Another metric is quality index of the deliverable plan generated from the dose prediction following the scorecard described by Ref [[1](#Citation)]. The computation of the metric will be handled by organizer. The participants only need to submit their results or solution package. Only small of number times are allowed to compute the quality index. 
 
+## Prizes and Publication Plan
+
+- **Monetary Awards:** A total $4,000 for top five teams (sponorship is pending for approval). 
+- **Certificate:** Top five teams will receive certificate endorsed organization team and AAPM.
+- **Authorship:** Top five teams (up to two members per team) will be invited as co-authors on a journal manuscript summarizing the challenge. Additional team members will be acknowledged.
+- **Presentations:** Top two teams will present at the 2025 AAPM Annual Meeting.
+- **Internship Opportunities**: Top three teams (if led by a student) will receive priority consideration for internships at Siemens Healthineers AI Center.
+
+
 
 ## Challenge Organizers 
 
@@ -112,7 +121,7 @@ To acknowledge the work of challenge organization team and insights from previou
 Except above, if you find any resources (including data and code) in this repo for RT is helpful for your research, please kindly cite either [1] or [2]. 
 
 ```
-[1] Riqiang Gao, Mamadou Diallo, Han Liu, Anthony Magliari, Wilko Verbakel, Sandra Meyers, Masoud Zarepisheh, Rafe Mcbeth, Simon Arberet, Martin Kraus, Florin Ghesu, Ali Kamen. Automating High Quality RT Planning at Scale. Technique Note, 2025.
+[1] Riqiang Gao, Mamadou Diallo, Han Liu, Anthony Magliari, Wilko Verbakel, Sandra Meyers, Masoud Zarepisheh, Rafe Mcbeth, Simon Arberet, Martin Kraus, Florin Ghesu, Ali Kamen. Automating High Quality RT Planning at Scale. Technique Note, 2025 (to be public soon).
 
 [2] Riqiang Gao, Bin Lou, Zhoubing Xu, Dorin Comaniciu, and Ali Kamen. "Flexible-cm gan: Towards precise 3d dose prediction in radiotherapy." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023.
 
