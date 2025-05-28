@@ -43,12 +43,12 @@ Here's the table sorted by **Final Rank** (ascending order):
 | sunyu0410 | ID2688 | N/A | N/A | N/A | N/A | N/A |
 | akamath | ID2690 | N/A | N/A | N/A | N/A | N/A |
 | peppa | ID2692 | N/A | N/A | N/A | N/A | N/A |
-| wangshangan | ID2647 | N/A | N/A | N/A | N/A | N/A |
-| Organizer | ID2694 | N/A | N/A | N/A | N/A | N/A |
+| wangshangan | ID2694 | N/A | N/A | N/A | N/A | N/A |
+| aphun | ID2697 | N/A | N/A | N/A | N/A | N/A |
 | Organizer | ID2647 | N/A | N/A | N/A | N/A | N/A |
 | SiemensHealthineers(organizer) | ID2676 | N/A | N/A | N/A | N/A | N/A |
 
-The performance of other teams are not shown. They either achieved a MAE larger than 3.4 or not a valid solution. 
+The performance of other teams are not shown (N/A). They either achieved a MAE larger than 3.4 or not a valid solution. 
 
 **A few notes**: 
 - The MAE is computed on whole test set with 498 plans, the quality score is computed on a random subsite with 50 plans (due to time and resource constraints). 
