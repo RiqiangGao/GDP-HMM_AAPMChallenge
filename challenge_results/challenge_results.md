@@ -1,9 +1,8 @@
 # Competition Results 
 
-The OpenKBP attracted 141 teams before the deadline of the challenge. There are around 220 total submissions have been made (the number shown in the platform is 170, as about 50 early submissions in Phase I and II were deleted because of platform maintenance
-553 and storage issue.)
+The OpenKBP attracted 141 teams before the deadline of the challenge. There are around 220 total submissions have been made (the number shown in the platform is 170, as about 50 early submissions in Phase I and II were deleted because of platform maintenance and storage issue.)
 
-The competition started at 01/09/2025 and ended at 05/02/2025. There are 17 teams engaged in the final testing phase (19 teams displayed in the platform, one is from the platform team and one is from organizer). 
+The competition started at 01/09/2025 and ended at 05/02/2025. There are 17 teams engaged in the final testing phase (19 teams displayed in the platform, one is from the platform team and one is from organizer). We will re-open the validation phase or/and release the reference plans (validation) for post-challenge evaluations. 
 
 ![](test_phase.png)
 
