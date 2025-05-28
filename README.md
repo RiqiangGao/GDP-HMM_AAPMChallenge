@@ -26,7 +26,9 @@ This repository provides code and tutorials to help participants get started wit
 
 :warning: **Attention!** The maximum allowed inference time for the deep learning module (excluding data preprocessing) is 3 seconds on a GPU with up to 24 GB of memory. To align with the challenge's objectives, participants must develop **a generalizable model** rather than creating separate models tailored to specific contexts. See detail explanation in [get_started_and_train.ipynb](get_started_and_train.ipynb) notebook. 
 
-:rocket: [05/20/2025] The challenge rankings and results have been provisionally released to participants of final phase. We will make them public one week later. Congrats to the winners!  
+:tada: [05/27/2025] The challenge rankings and results have been released [here](challenge_results). Congrats to the winners again! 
+
+:tada: [05/20/2025] The challenge rankings and results have been provisionally released to participants of final phase. We will make them public one week later. Congrats to the winners!  
 
 :rocket: [04/20/2025] The final test phase is started. Please check the [docker_tutorial.ipynb](docker_tutorial.ipynb) to prepare docker, which need to be submitted through challenge platform. Participants also are required to provide documentation of their methods (up to 2 pages), source code for training and testing, and pre-trained model; which could be zip file or accessible web link.  
 
