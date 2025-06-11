@@ -26,6 +26,8 @@ This repository provides code and tutorials to help participants get started wit
 
 :warning: **Attention!** The maximum allowed inference time for the deep learning module (excluding data preprocessing) is 3 seconds on a GPU with up to 24 GB of memory. To align with the challenge's objectives, participants must develop **a generalizable model** rather than creating separate models tailored to specific contexts. See detail explanation in [get_started_and_train.ipynb](get_started_and_train.ipynb) notebook. 
 
+:tada: [06/10/2025] The top six solutions have been released [here](https://huggingface.co/Jungle15/GDP-HMM_baseline/tree/main/participants_solutions), including train/inference code and pretrained model!
+
 :tada: [05/27/2025] The challenge rankings and results have been released [here](challenge_results). Congrats to the winners again! 
 
 :tada: [05/20/2025] The challenge rankings and results have been provisionally released to participants of final phase. We will make them public one week later. Congrats to the winners!  

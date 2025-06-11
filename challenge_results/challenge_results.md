@@ -6,9 +6,9 @@ The competition started at 01/09/2025 and ended at 05/02/2025. There are 17 team
 
 ![](test_phase.png)
 
-The top 6 teams will be awarded with money after they open source their solutions: 
+The top 6 teams are awarded with money below, and their solutions can be find [here](https://huggingface.co/Jungle15/GDP-HMM_baseline/tree/main/participants_solutions): 
 
-**1st**: $1300 for Team Yasin, solution repo: 
+**1st**: $1300 for Team Yasin
 
 **2nd**: $1100 for Team tyxiong123
 
