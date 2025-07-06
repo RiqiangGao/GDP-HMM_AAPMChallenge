@@ -24,8 +24,6 @@ This repository provides code and tutorials to help participants get started wit
 
 ## Announcements and News 
 
-:warning: **Attention!** The maximum allowed inference time for the deep learning module (excluding data preprocessing) is 3 seconds on a GPU with up to 24 GB of memory. To align with the challenge's objectives, participants must develop **a generalizable model** rather than creating separate models tailored to specific contexts. See detail explanation in [get_started_and_train.ipynb](get_started_and_train.ipynb) notebook. 
-
 :tada: [06/10/2025] The top six solutions have been released [here](https://huggingface.co/Jungle15/GDP-HMM_baseline/tree/main/participants_solutions), including train/inference code, pretrained model, and simple tech report!
 
 :tada: [05/27/2025] The challenge rankings and results have been released [here](challenge_results). Congrats to the winners again! 
@@ -151,7 +149,9 @@ In addtion to above, if any data and code resources in this repo is helpful for 
 
 # Disclaimer
 
-The resources and information provided in this challenge are based on research results and for research purposes only. Future commercial availability cannot be guaranteed. 
+- The resources and information provided in this challenge are derived from research findings and are intended solely for research purposes. Commercial availability in the future is not guaranteed.
+
+- The radiotherapy plans used in this study are not clinically approved. The concept of "Plan Quality" may vary between institutions and individual planners, and should be considered subjective. While the dataset is valuable for training and validating AI models from a computational standpoint, it is the responsibility of the user to thoroughly evaluate the data before applying it to any clinical or research studies. 
 
 #
 
