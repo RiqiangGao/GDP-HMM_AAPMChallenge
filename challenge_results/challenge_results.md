@@ -52,7 +52,7 @@ The performance of other teams are not shown (N/A). They either achieved a MAE l
 
 **A few notes**: 
 - The MAE is computed on whole test set with 498 plans, the quality score is computed on a random subsite with 50 plans (due to time and resource constraints). 
-- The difference between the quality score of the top 10 solutions are small, but all better than the RapidPlan used in [1] (117.85). 
+- The difference between the quality score of the top 10 solutions are small, we use the MAE as main metric. 
 - Final Rank = (MAE_rank * 4 + Quality_rank) / 5.
 - The scorecard used in the evaluation is adjusted from Varian Medical Affairs website. we modify the scorecard by assigning large penalty weights to items that do not meet the quality criteria, in order to better align with our iterative optimization pipeline. Also, we did not include the naming miss-matched items between the scorecard and RapidPlan model. We plan to add those naming miss-matched items back to create another version of dataset. 
 - When computing the scores for a plan, the structures (from the automatic pipeline) too small or with too much overlap with PTVs have been removed.
