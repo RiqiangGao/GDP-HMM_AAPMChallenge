@@ -112,7 +112,6 @@ Example code is provided in [evaluation.ipynb](evaluation.ipynb).
 
 - **Monetary Awards:** Total $4,000 for top **N** teams (the number **N** will range from 5 to 10, depending on the number of teams participating in Phase III).
 - **Certificate:** Top **N** teams will receive certificate endorsed organization team and AAPM.
-- **Authorship:** Top **N** teams (up to two members per team) will be invited as co-authors on a journal manuscript summarizing the challenge. Additional team members will be acknowledged.
 - **Presentations:** Top two teams will be awarded complimentary meeting registration to present their work.
 - **Internship Opportunities**: Lead students of Top five teams will receive priority consideration for internships at Siemens Healthineers AI Center.
 
