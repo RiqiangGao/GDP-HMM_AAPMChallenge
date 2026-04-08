@@ -6,7 +6,7 @@ But this script can help you understand how npz files are saved, and you can adj
 
 If you used this script for your research, please kindly cite the following paper and keep this information in your code:
 @article{gao2025automating,
-  title={Automating High Quality RT Planning at Scale},
+  title={Automating RT Planning at Scale: High Quality Data For AI Training},
   author={Gao, Riqiang and Diallo, Mamadou and Liu, Han and Magliari, Anthony and Sackett, Jonathan and Verbakel, Wilko and Meyers, Sandra and Zarepisheh, Masoud and Mcbeth, Rafe and Arberet, Simon and others},
   journal={arXiv preprint arXiv:2501.11803},
   year={2025}
