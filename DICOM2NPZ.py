@@ -316,5 +316,6 @@ if __name__ == "__main__":
     crop_dict, starts, ends = spatial_crop_dict(data_dict, z_len_mm = 256, ref_ptv = 'PTV_Total')
     
     np.savez_compressed('local_path/sample_patient.npz', crop_dict)
+    print ('---------------------please check the functions in toolkit.py for angle plate and beam plate creation!---------------------------')
     print ('npz saved')
 
