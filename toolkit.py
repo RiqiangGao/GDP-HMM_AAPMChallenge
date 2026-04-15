@@ -35,7 +35,7 @@ from monai.transforms import (
 '''
 Content: 
 
-Section 1: Geometries
+Section 1: Geometries, including angle_plate and beam_plate creation
 Section 2: DVHs and Visualization
 Section 3: for pytorch data loader
 
@@ -174,9 +174,11 @@ def get_per_beamplate(PTV_mask, isocenter, space, gantry_angle, with_distance = 
 
     return beam_plate
 
-def get_allbeam_plate(PTV_mask, isocenter, space, angles, with_distance = True):
+def get_allbeam_plate(PTV_mask, isocenter, space, angles, with_distance = True, isVMAT = False, skip_angle = True):
     all_beam_plate = np.zeros_like(PTV_mask).astype('float')
-    for angle in angles:
+    for i, angle in enumerate(angles):
+        if isVMAT and skip_angle and i % 2 == 1: # this is for speeding up the computation for VMAT beam_plate. User may or may not change the parameters (skip_angle) if separately preparing beam_plate
+            continue
         all_beam_plate += get_per_beamplate(PTV_mask, isocenter, space, angle, with_distance = with_distance)
     return all_beam_plate
 
